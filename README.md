@@ -6,6 +6,4 @@
 
 - UML files stored under the UML Folder.
 
-- Challenges files stored under the Challenges Folder.
-
 - Javadoc HTML stored in Javadoc folder
