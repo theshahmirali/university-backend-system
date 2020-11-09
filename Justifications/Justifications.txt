@@ -1,0 +1,22 @@
+String vs Int
+
+The advantages of using int as datatype is that it takes up 4 bytes to save an integer value.
+While for a String type it would be a little more since it is Total size = (number of bits to encode a char * number of char) / 8
+So a string "12345678910" when encoded in ASCII would take (11*8)/8 = 11 bytes 
+
+So this is why I chose the student ID to be saved as int datatype.
+
+----------------------------------------------------------------------------
+
+firstName, lastName vs givenName, familyName
+
+In some countries people provide their 'surname' as 'firstName' so it is better to ask 'givenName' and 'familyName' to make it
+explicitly clear.
+
+
+----------------------------------------------------------------------------
+
+Array vs ArrayList
+
+Arrays in Java are of fixed size, while the ArrayList are dynamic sized. Since in the implenetations we are dealing with
+University students there exists no fixed size. So I opted the ArrayList implementation

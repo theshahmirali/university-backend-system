@@ -1,0 +1,13 @@
+Before reading the challenge 2, I already implemented this challenge thinking about it in a general case where
+no two students can have same student ID. 
+
+For the implementation we can use a hash set where no duplicate values can be stored and hash maps where no duplicate
+keys can be stored.
+
+So basically, in the University class once an instance of a Student is created, we can simply enrol that student into the University,
+by using a HashMap of type <Integer, Student> and also enrol the student to a Unit.
+
+In the Unit class we use a HashSet to store, where the id of the students are checked if they are enrolled in the University
+and if the students are not enrolled it prints a message to enrol them first, else if they are enrolled in the 
+University then it adds them to the HashSet. We can simply add in a print statement here to print the student ids before enrolling
+in HashSet.
